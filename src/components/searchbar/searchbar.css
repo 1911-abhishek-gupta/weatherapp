@@ -1,0 +1,91 @@
+.searchBar{
+    width: 1127px;
+    height: 64.78px;
+    top: 105.22px;
+    left: 152px;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+
+.searchBarName{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    align-items: center;
+    color: navy;
+}
+
+.locationName{
+    font-weight: bolder;
+}
+
+.latiAndLong{
+    margin-top: 5px;
+    color:gray;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.searchTab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchTabInput{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.searchTabBUtton{
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+input:placeholder-shown {
+    font-style: italic;
+ }
+
+ @media screen and (max-width:360px){
+    .searchBar{
+        display: flex;
+        flex-direction: column-reverse;
+        left: 20px;
+        width: 90%;
+        align-items: center;
+        height: 80px;
+    }
+
+    .searchTab{
+        position: absolute;
+        height: 42px;
+        border-radius: 8px;
+        top: -40px;
+    }
+
+    .searchBarName{
+        position: absolute;
+        top: 5px;
+        padding-top: 10px;
+    }
+
+    .searchTabInput{
+        width: 250px;
+    }
+ }

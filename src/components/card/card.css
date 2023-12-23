@@ -1,0 +1,45 @@
+.Card{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 250px;
+    width: 150px;
+}
+
+.cardDate{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 600;
+}
+
+.cardDetails{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+
+.cardTop{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px 0px 20px 5px;
+    font-weight: 600;
+}
+
+.cardBottom{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    font-weight: 600;
+}

@@ -1,0 +1,56 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.49);
+    color: rgba(255, 255, 255, 1);
+    padding-left: 137px;
+    padding-right: 200px;
+    height: 47px;
+}
+
+.titleIcon{
+    width: 31px;
+    height: 31px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+}
+
+.topbarTitle{
+    display: flex;
+    align-items: center;
+}
+
+.topbarRefresh{
+    display: flex;
+    align-items: center;
+}
+
+.refreshText{
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:360px){
+    .topbar{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .topbarRefresh{
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid white;
+        padding-left: 5px;
+    }
+
+    .refreshText{
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
